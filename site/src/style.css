@@ -119,6 +119,27 @@
     max-width: 600px;
 }
 
+.studio-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    margin-top: 1rem;
+}
+
+.studio-links a {
+    color: #d8ecff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(130, 220, 255, 0.4);
+    padding-bottom: 2px;
+}
+
+.studio-links a:hover {
+    color: #86eaff;
+    border-bottom-color: #86eaff;
+}
+
 body {
     margin: 0;
     background:

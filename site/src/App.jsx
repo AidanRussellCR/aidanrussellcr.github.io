@@ -166,9 +166,9 @@ export default function App() {
                     </div>
                 </div>
 
-                <div className="contact-links">
+                <div className="studio-links">
                     <a href="https://store.steampowered.com/developer/crystalgnome" target="_blank" rel="noreferrer">
-                    Visit Steam Page
+                    View Steam Page
                     </a>
                 </div>
             </div>
