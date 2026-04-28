@@ -1,2 +1,3 @@
 # aidanrussellcr.github.io
-Coming soon...
+
+A personal portfolio built using React and Vite.
