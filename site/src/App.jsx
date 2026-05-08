@@ -30,6 +30,17 @@ const projects = [
         ],
     },
     {
+        name: "Hvastra",
+        repo: "https://github.com/AidanRussellCR/Hvastra",
+        live: null,
+        studio: null,
+        description:
+        "A modular SNES JRPG engine and ROM creation toolkit designed for real hardware, featuring a custom rendering pipeline, asset tooling, and future visual editors for maps and battle systems.",
+        images: [
+            `${import.meta.env.BASE_URL}projects/hvastra-1.png`,
+        ],
+    },
+    {
         name: "Luzhanqi",
         repo: null,
         live: "https://store.steampowered.com/app/3485740/Luzhanqi/",
