@@ -4,6 +4,19 @@ import Section from "./components/Section";
 
 const projects = [
     {
+        name: "Luzhanqi",
+        repo: null,
+        live: "https://store.steampowered.com/app/3485740/Luzhanqi/",
+        studio: "Crystal Gnome",
+        description:
+        "A digital adaptation of Luzhanqi, featuring online multiplayer via Steamworks, AI opponents for solo play, and local cooperative modes. The project focuses on recreating the strategic depth of the original game while providing a modern, accessible experience across multiple play styles.",
+        images: [
+            `${import.meta.env.BASE_URL}projects/luzhanqi-1.png`,
+            `${import.meta.env.BASE_URL}projects/luzhanqi-2.png`,
+            `${import.meta.env.BASE_URL}projects/luzhanqi-3.png`,
+        ],
+    },
+    {
         name: "IsnaOS",
         repo: "https://github.com/AidanRussellCR/IsnaOS",
         live: null,
@@ -38,19 +51,6 @@ const projects = [
         "A modular SNES JRPG engine and ROM creation toolkit designed for real hardware, featuring a custom rendering pipeline, asset tooling, and future visual editors for maps and battle systems.",
         images: [
             `${import.meta.env.BASE_URL}projects/hvastra-1.png`,
-        ],
-    },
-    {
-        name: "Luzhanqi",
-        repo: null,
-        live: "https://store.steampowered.com/app/3485740/Luzhanqi/",
-        studio: "Crystal Gnome",
-        description:
-        "A digital adaptation of Luzhanqi, featuring online multiplayer via Steamworks, AI opponents for solo play, and local cooperative modes. The project focuses on recreating the strategic depth of the original game while providing a modern, accessible experience across multiple play styles.",
-        images: [
-            `${import.meta.env.BASE_URL}projects/luzhanqi-1.png`,
-            `${import.meta.env.BASE_URL}projects/luzhanqi-2.png`,
-            `${import.meta.env.BASE_URL}projects/luzhanqi-3.png`,
         ],
     },
 ];
