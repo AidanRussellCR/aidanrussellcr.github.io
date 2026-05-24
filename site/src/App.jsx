@@ -35,7 +35,7 @@ const projects = [
         live: null,
         studio: null,
         description:
-        "A lightweight C++ SDL2 game engine project built around JRPG-style scenes, tilemaps, player movement, camera behavior, and collision systems.",
+        "A lightweight C++ SDL3 game engine project built around JRPG-style scenes, tilemaps, player movement, camera behavior, and collision systems.",
         images: [
             `${import.meta.env.BASE_URL}projects/spetra-1.png`,
             `${import.meta.env.BASE_URL}projects/spetra-2.png`,
